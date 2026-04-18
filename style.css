@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #0f172a;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 50px;
+    background: #1e293b;
+}
+
+section {
+    padding: 40px;
+}
+
+.project {
+    background: #334155;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}.project:hover {
+    background: #475569;
+    transform: scale(1.05);
+    transition: 0.3s;
+}nav {
+    background: black;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
